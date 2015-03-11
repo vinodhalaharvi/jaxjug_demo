@@ -1,7 +1,7 @@
-<map id="EmulNet::ENsend" name="EmulNet::ENsend">
-<area shape="rect" id="node2" href="$db/d4b/class_m_p1_node.html#ad020c60f48dec0571ce9a744540effbd" title="MP1Node::introduceSelfTo\lGroup" alt="" coords="182,5,362,43"/>
-<area shape="rect" id="node3" href="$db/d4b/class_m_p1_node.html#a432c95b8d9ff4d689bf6f670884639a8" title="MP1Node::nodeStart" alt="" coords="411,11,557,37"/>
-<area shape="rect" id="node4" href="$de/d6b/class_application.html#a4ee14b17094145f2b3c174500932adc8" title="Application::mp1Run" alt="" coords="605,11,750,37"/>
-<area shape="rect" id="node5" href="$de/d6b/class_application.html#a8cf8941c8db90117d3735bce5ae1fdf4" title="Application::run" alt="" coords="798,11,911,37"/>
-<area shape="rect" id="node6" href="$d0/d42/_application_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="960,11,1010,37"/>
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$db/d4b/class_m_p1_node.html#ad020c60f48dec0571ce9a744540effbd" title="MP1Node::introduceSelfToGroup" alt="" coords="183,5,396,35"/>
+<area shape="rect" id="node5" href="$db/d4b/class_m_p1_node.html#a432c95b8d9ff4d689bf6f670884639a8" title="MP1Node::nodeStart" alt="" coords="445,5,589,35"/>
+<area shape="rect" id="node7" href="$de/d6b/class_application.html#a4ee14b17094145f2b3c174500932adc8" title="Application::mp1Run" alt="" coords="639,5,780,35"/>
+<area shape="rect" id="node9" href="$de/d6b/class_application.html#a8cf8941c8db90117d3735bce5ae1fdf4" title="Application::run" alt="" coords="829,5,941,35"/>
+<area shape="rect" id="node11" href="$d0/d42/_application_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="989,5,1040,35"/>
 </map>

@@ -1,0 +1,44 @@
+######################################
+5) GNU Screen
+        Installation
+                sudo apt-get install screen
+        Creation
+                screen -S meetup #create a screen session
+                Ctrl-a d  #detach
+                screen -r ls #list
+                screen -r #attach if you only have one screen
+                screen -r meetup #attach to the meetup screen
+        Navigation
+                Ctrl-a n  # go to next screen
+                Ctrl-a p # go to previous screen
+        Command Persistance
+                for count in $(seq 1 1000); do echo $count ; sleep 1 ; done;
+                wget http://releases.ubuntu.com/14.04.2/ubuntu-14.04.2-server-amd64.iso
+4) Code Visualization
+        Doxygen
+                Installation
+                        sudo apt-get install doxygen
+        GraphViz
+                Installation
+                        sudo apt-get install graphviz
+
+3) Zencoding
+        how to not to type html
+        how to write programs that write programs
+        show a cool python example using zencoding and python script
+2) Just simple plain editor
+        vim to not open each file
+        run commands from with in vim
+        encrypt a file
+        hex code with in vim
+1) github
+        Some fringe commands
+        git reflog
+        git rebase
+        git reset --hard=HEAD
+        git config --global color.diff
+        git log -g
+        git log -S "some_search_string"
+        git log -S "some_search_string" -p
+        git log -S "some_search_string" -p -pixaxe-all
+######################################

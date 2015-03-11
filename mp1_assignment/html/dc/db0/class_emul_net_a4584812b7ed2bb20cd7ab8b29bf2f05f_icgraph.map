@@ -1,6 +1,6 @@
-<map id="EmulNet::ENrecv" name="EmulNet::ENrecv">
-<area shape="rect" id="node2" href="$db/d4b/class_m_p1_node.html#a61c78c68e9033a5ff52c3fc2e1a3982b" title="MP1Node::recvLoop" alt="" coords="179,5,322,30"/>
-<area shape="rect" id="node3" href="$de/d6b/class_application.html#a4ee14b17094145f2b3c174500932adc8" title="Application::mp1Run" alt="" coords="370,5,515,30"/>
-<area shape="rect" id="node4" href="$de/d6b/class_application.html#a8cf8941c8db90117d3735bce5ae1fdf4" title="Application::run" alt="" coords="563,5,677,30"/>
-<area shape="rect" id="node5" href="$d0/d42/_application_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="726,5,776,30"/>
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$db/d4b/class_m_p1_node.html#a61c78c68e9033a5ff52c3fc2e1a3982b" title="MP1Node::recvLoop" alt="" coords="179,5,320,35"/>
+<area shape="rect" id="node5" href="$de/d6b/class_application.html#a4ee14b17094145f2b3c174500932adc8" title="Application::mp1Run" alt="" coords="369,5,511,35"/>
+<area shape="rect" id="node7" href="$de/d6b/class_application.html#a8cf8941c8db90117d3735bce5ae1fdf4" title="Application::run" alt="" coords="560,5,672,35"/>
+<area shape="rect" id="node9" href="$d0/d42/_application_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="720,5,771,35"/>
 </map>

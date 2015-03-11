@@ -1,6 +1,6 @@
-<map id="MP1Node::recvLoop" name="MP1Node::recvLoop">
-<area shape="rect" id="node2" href="$dc/db0/class_emul_net.html#a4584812b7ed2bb20cd7ab8b29bf2f05f" title="EmulNet::ENrecv" alt="" coords="232,5,355,30"/>
-<area shape="rect" id="node4" href="$db/d4b/class_m_p1_node.html#af45c64abc521a0674234ec4a0621b4e1" title="MP1Node::enqueueWrapper" alt="" coords="198,54,389,79"/>
-<area shape="rect" id="node3" href="$dc/d1d/class_params.html#a4c0beb0ffc7e88794296821e9525dc75" title="Params::getcurrtime" alt="" coords="437,5,579,30"/>
-<area shape="rect" id="node5" href="$d4/da4/class_queue.html#ae5ad57305adbae74caedbfadefe6c643" title="Queue::enqueue" alt="" coords="448,54,568,79"/>
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$dc/db0/class_emul_net.html#a4584812b7ed2bb20cd7ab8b29bf2f05f" title="EmulNet::ENrecv" alt="" coords="225,5,351,35"/>
+<area shape="rect" id="node7" href="$db/d4b/class_m_p1_node.html#af45c64abc521a0674234ec4a0621b4e1" title="MP1Node::enqueueWrapper" alt="" coords="195,59,381,88"/>
+<area shape="rect" id="node5" href="$dc/d1d/class_params.html#a4c0beb0ffc7e88794296821e9525dc75" title="Params::getcurrtime" alt="" coords="431,5,569,35"/>
+<area shape="rect" id="node9" href="$d4/da4/class_queue.html#ae5ad57305adbae74caedbfadefe6c643" title="Queue::enqueue" alt="" coords="441,59,559,88"/>
 </map>

@@ -1,4 +1,4 @@
-<map id="EmulNet::EmulNet" name="EmulNet::EmulNet">
-<area shape="rect" id="node2" href="$db/dfc/class_e_m.html#a11bfe493228a27be761405adcecbf942" title="EM::setNextId" alt="" coords="205,5,310,30"/>
-<area shape="rect" id="node3" href="$db/dfc/class_e_m.html#a04735702f4943bd77292f2fb8d8b5a7d" title="EM::settCurrBuffSize" alt="" coords="185,54,330,79"/>
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$db/dfc/class_e_m.html#a11bfe493228a27be761405adcecbf942" title="EM::setNextId" alt="" coords="207,5,313,35"/>
+<area shape="rect" id="node5" href="$db/dfc/class_e_m.html#a04735702f4943bd77292f2fb8d8b5a7d" title="EM::settCurrBuffSize" alt="" coords="187,59,333,88"/>
 </map>
