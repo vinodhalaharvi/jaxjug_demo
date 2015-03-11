@@ -21,24 +21,23 @@
         GraphViz
                 Installation
                         sudo apt-get install graphviz
-
-3) Zencoding
-        how to not to type html
-        how to write programs that write programs
-        show a cool python example using zencoding and python script
-2) Just simple plain editor
-        vim to not open each file
-        run commands from with in vim
-        encrypt a file
-        hex code with in vim
+3) Just simple plain editor
+        Commands from within VIM
+        VIM to commands externally to a file
+        VIM to encrypt a file
+        VIM hex code editor
+2) Zencoding
+        HTML code completion
+        Programs that write programs
 1) github
-        Some fringe commands
         git reflog
         git rebase
+	git blame
         git reset --hard=HEAD
         git config --global color.diff
         git log -g
         git log -S "some_search_string"
         git log -S "some_search_string" -p
+	git log -S "java" -p  --diff-filter=A
         git log -S "some_search_string" -p -pixaxe-all
 ######################################

@@ -1,0 +1,229 @@
+\hypertarget{class_application}{}\section{Application Class Reference}
+\label{class_application}\index{Application@{Application}}
+
+
+{\ttfamily \#include $<$Application.\+h$>$}
+
+
+
+Collaboration diagram for Application\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{d2/d07/class_application__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_application_a780412190c529b3445ea73912b9c3a32}{Application} (char $\ast$)
+\item 
+virtual \hyperlink{class_application_a748bca84fefb9c12661cfaa2f623748d}{$\sim$\+Application} ()
+\item 
+\hyperlink{class_address}{Address} \hyperlink{class_application_ac01a037d21d4d7e9f4f9ba1836709846}{getjoinaddr} ()
+\item 
+int \hyperlink{class_application_a8cf8941c8db90117d3735bce5ae1fdf4}{run} ()
+\item 
+void \hyperlink{class_application_a4ee14b17094145f2b3c174500932adc8}{mp1\+Run} ()
+\item 
+void \hyperlink{class_application_a867c9c2a20e754ab3b1de41cff822157}{fail} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+char \hyperlink{class_application_acca96da4be60c3bc3018337cc6233e46}{J\+O\+I\+N\+A\+D\+D\+R} \mbox{[}30\mbox{]}
+\item 
+\hyperlink{class_emul_net}{Emul\+Net} $\ast$ \hyperlink{class_application_a96273af089eddb43c743f6386ca3938c}{en}
+\item 
+\hyperlink{class_log}{Log} $\ast$ \hyperlink{class_application_a92d6f9eb17704ca7a7d28862faa4cbd0}{log}
+\item 
+\hyperlink{class_m_p1_node}{M\+P1\+Node} $\ast$$\ast$ \hyperlink{class_application_a858c988b6be86ab4d6d41b044d15ef1a}{mp1}
+\item 
+\hyperlink{class_params}{Params} $\ast$ \hyperlink{class_application_aca640b0742d1f5325a031584a9224a00}{par}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+C\+L\+A\+S\+S N\+A\+M\+E\+: \hyperlink{class_application}{Application}
+
+D\+E\+S\+C\+R\+I\+P\+T\+I\+O\+N\+: \hyperlink{class_application}{Application} layer of the distributed system 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_application_a780412190c529b3445ea73912b9c3a32}{}\index{Application@{Application}!Application@{Application}}
+\index{Application@{Application}!Application@{Application}}
+\subsubsection[{Application}]{\setlength{\rightskip}{0pt plus 5cm}Application\+::\+Application (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{infile}
+\end{DoxyParamCaption}
+)}\label{class_application_a780412190c529b3445ea73912b9c3a32}
+Constructor of the \hyperlink{class_application}{Application} class 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/d6b/class_application_a780412190c529b3445ea73912b9c3a32_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_application_a748bca84fefb9c12661cfaa2f623748d}{}\index{Application@{Application}!````~Application@{$\sim$\+Application}}
+\index{````~Application@{$\sim$\+Application}!Application@{Application}}
+\subsubsection[{$\sim$\+Application}]{\setlength{\rightskip}{0pt plus 5cm}Application\+::$\sim$\+Application (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{class_application_a748bca84fefb9c12661cfaa2f623748d}
+Destructor 
+
+\subsection{Member Function Documentation}
+\hypertarget{class_application_a867c9c2a20e754ab3b1de41cff822157}{}\index{Application@{Application}!fail@{fail}}
+\index{fail@{fail}!Application@{Application}}
+\subsubsection[{fail}]{\setlength{\rightskip}{0pt plus 5cm}void Application\+::fail (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_application_a867c9c2a20e754ab3b1de41cff822157}
+F\+U\+N\+C\+T\+I\+O\+N N\+A\+M\+E\+: fail
+
+D\+E\+S\+C\+R\+I\+P\+T\+I\+O\+N\+: This function controls the failure of nodes
+
+Note\+: this is used only by M\+P1 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/d6b/class_application_a867c9c2a20e754ab3b1de41cff822157_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/d6b/class_application_a867c9c2a20e754ab3b1de41cff822157_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_application_ac01a037d21d4d7e9f4f9ba1836709846}{}\index{Application@{Application}!getjoinaddr@{getjoinaddr}}
+\index{getjoinaddr@{getjoinaddr}!Application@{Application}}
+\subsubsection[{getjoinaddr}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Address} Application\+::getjoinaddr (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\label{class_application_ac01a037d21d4d7e9f4f9ba1836709846}
+F\+U\+N\+C\+T\+I\+O\+N N\+A\+M\+E\+: getjoinaddr
+
+D\+E\+S\+C\+R\+I\+P\+T\+I\+O\+N\+: This function returns the address of the coordinator 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{de/d6b/class_application_ac01a037d21d4d7e9f4f9ba1836709846_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/d6b/class_application_ac01a037d21d4d7e9f4f9ba1836709846_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_application_a4ee14b17094145f2b3c174500932adc8}{}\index{Application@{Application}!mp1\+Run@{mp1\+Run}}
+\index{mp1\+Run@{mp1\+Run}!Application@{Application}}
+\subsubsection[{mp1\+Run}]{\setlength{\rightskip}{0pt plus 5cm}void Application\+::mp1\+Run (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_application_a4ee14b17094145f2b3c174500932adc8}
+F\+U\+N\+C\+T\+I\+O\+N N\+A\+M\+E\+: mp1\+Run
+
+D\+E\+S\+C\+R\+I\+P\+T\+I\+O\+N\+: This function performs all the membership protocol functionalities 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/d6b/class_application_a4ee14b17094145f2b3c174500932adc8_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/d6b/class_application_a4ee14b17094145f2b3c174500932adc8_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_application_a8cf8941c8db90117d3735bce5ae1fdf4}{}\index{Application@{Application}!run@{run}}
+\index{run@{run}!Application@{Application}}
+\subsubsection[{run}]{\setlength{\rightskip}{0pt plus 5cm}int Application\+::run (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_application_a8cf8941c8db90117d3735bce5ae1fdf4}
+F\+U\+N\+C\+T\+I\+O\+N N\+A\+M\+E\+: run
+
+D\+E\+S\+C\+R\+I\+P\+T\+I\+O\+N\+: Main driver function of the \hyperlink{class_application}{Application} layer 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{de/d6b/class_application_a8cf8941c8db90117d3735bce5ae1fdf4_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=240pt]{de/d6b/class_application_a8cf8941c8db90117d3735bce5ae1fdf4_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_application_a96273af089eddb43c743f6386ca3938c}{}\index{Application@{Application}!en@{en}}
+\index{en@{en}!Application@{Application}}
+\subsubsection[{en}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Emul\+Net}$\ast$ Application\+::en\hspace{0.3cm}{\ttfamily [private]}}\label{class_application_a96273af089eddb43c743f6386ca3938c}
+\hypertarget{class_application_acca96da4be60c3bc3018337cc6233e46}{}\index{Application@{Application}!J\+O\+I\+N\+A\+D\+D\+R@{J\+O\+I\+N\+A\+D\+D\+R}}
+\index{J\+O\+I\+N\+A\+D\+D\+R@{J\+O\+I\+N\+A\+D\+D\+R}!Application@{Application}}
+\subsubsection[{J\+O\+I\+N\+A\+D\+D\+R}]{\setlength{\rightskip}{0pt plus 5cm}char Application\+::\+J\+O\+I\+N\+A\+D\+D\+R\mbox{[}30\mbox{]}\hspace{0.3cm}{\ttfamily [private]}}\label{class_application_acca96da4be60c3bc3018337cc6233e46}
+\hypertarget{class_application_a92d6f9eb17704ca7a7d28862faa4cbd0}{}\index{Application@{Application}!log@{log}}
+\index{log@{log}!Application@{Application}}
+\subsubsection[{log}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Log}$\ast$ Application\+::log\hspace{0.3cm}{\ttfamily [private]}}\label{class_application_a92d6f9eb17704ca7a7d28862faa4cbd0}
+\hypertarget{class_application_a858c988b6be86ab4d6d41b044d15ef1a}{}\index{Application@{Application}!mp1@{mp1}}
+\index{mp1@{mp1}!Application@{Application}}
+\subsubsection[{mp1}]{\setlength{\rightskip}{0pt plus 5cm}{\bf M\+P1\+Node}$\ast$$\ast$ Application\+::mp1\hspace{0.3cm}{\ttfamily [private]}}\label{class_application_a858c988b6be86ab4d6d41b044d15ef1a}
+\hypertarget{class_application_aca640b0742d1f5325a031584a9224a00}{}\index{Application@{Application}!par@{par}}
+\index{par@{par}!Application@{Application}}
+\subsubsection[{par}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Params}$\ast$ Application\+::par\hspace{0.3cm}{\ttfamily [private]}}\label{class_application_aca640b0742d1f5325a031584a9224a00}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_application_8h}{Application.\+h}\item 
+\hyperlink{_application_8cpp}{Application.\+cpp}\end{DoxyCompactItemize}

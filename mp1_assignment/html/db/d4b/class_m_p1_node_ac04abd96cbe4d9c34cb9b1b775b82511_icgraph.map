@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$db/d4b/class_m_p1_node.html#a4fe0fab29863fb7de566e9361272d0ad" title="MP1Node::checkMessages" alt="" coords="223,5,404,35"/>
-<area shape="rect" id="node5" href="$db/d4b/class_m_p1_node.html#a5580b634a7656f04db9d819d0b722712" title="MP1Node::nodeLoop" alt="" coords="453,5,597,35"/>
-<area shape="rect" id="node7" href="$de/d6b/class_application.html#a4ee14b17094145f2b3c174500932adc8" title="Application::mp1Run" alt="" coords="647,5,788,35"/>
-<area shape="rect" id="node9" href="$de/d6b/class_application.html#a8cf8941c8db90117d3735bce5ae1fdf4" title="Application::run" alt="" coords="837,5,949,35"/>
-<area shape="rect" id="node11" href="$d0/d42/_application_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="main" alt="" coords="997,5,1048,35"/>
-</map>
