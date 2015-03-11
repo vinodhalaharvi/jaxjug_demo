@@ -39,5 +39,5 @@
         git log -S "some_search_string"
         git log -S "some_search_string" -p
 	git log -S "java" -p  --diff-filter=A
-        git log -S "some_search_string" -p -pixaxe-all
+        git log -S "some_search_string" -p --pickaxe-all
 ######################################
